@@ -1,0 +1,50 @@
+.top-empty{
+  min-height: 25px;
+}
+
+.nav{
+ text-align: right;
+ min-height: 50px;
+
+}
+
+.nav li{
+  display: inline;
+  color: black;
+  font-size: 18px;
+  padding: 20px;
+}
+
+.nav a:link, .nav a:visited{
+  color: black;
+  font-family: 'Francois One', sans-serif;
+  text-decoration: none;
+  padding: 5px;
+}
+
+.nav a:hover{
+  color: white;
+  padding: 5px;
+  font-family: 'Francois One', sans-serif;
+  text-decoration: none;
+  background-color: grey;
+}
+
+.direction-bar{
+  min-height: 75px;
+  background-color: #333399;
+  margin-top: -75px;
+  position: relative;
+}
+
+.direction-background-image h1{
+  font-family: 'Francois One', sans-serif;
+  font-size: 70px;
+  color: black;
+  margin-top: -325px;
+  text-align: center;
+}
+
+.direction-background-image img{
+  margin-left: -20px;
+}
