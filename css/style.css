@@ -43,6 +43,14 @@ background-image: ("/images/stadium3.jpg") center center;
   min-height: 75px;
   background-color: #333399;
   margin-top: -75px;
+  position: relative;
+}
+
+.artist-bar{
+  min-height: 75px;
+  background-color: #333399;
+  margin-top: 162px;
+  position: relative;
 }
 
 .transbox {
@@ -66,9 +74,9 @@ background-image: ("/images/stadium3.jpg") center center;
 }
 
 .transbox h1{
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Francois One', sans-serif;
   font-style: italic;
-  font-size: 65px;
+  font-size: 70px;
   text-align: center;
   margin-top: -5px;
   position: relative;
