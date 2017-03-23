@@ -1,0 +1,188 @@
+/*.container{
+  border: 1px solid red;
+}*/
+
+.top-empty{
+  min-height: 25px;
+}
+
+.nav{
+ text-align: right;
+ min-height: 50px;
+
+}
+
+.nav li{
+  display: inline;
+  color: black;
+  font-size: 18px;
+  padding: 20px;
+}
+
+.nav a:link, .nav a:visited{
+  color: black;
+  font-family: 'Francois One', sans-serif;
+  text-decoration: none;
+  padding: 5px;
+}
+
+.nav a:hover{
+  color: white;
+  padding: 5px;
+  font-family: 'Francois One', sans-serif;
+  text-decoration: none;
+  background-color: grey;
+}
+
+.background-image img{
+margin-left: -17px;
+background-image: ("/images/stadium3.jpg") center center;
+}
+
+.bar{
+  min-height: 75px;
+  background-color: #333399;
+  margin-top: -75px;
+}
+
+.transbox {
+  /*border: 2px solid black;*/
+  position: absolute;
+  max-width: 850px;
+  min-height: 300px;
+  max-height: 300px;
+  margin-top: 85px;
+  margin-left: 400px;
+  padding: 0px;
+  padding-top: 50px;
+  margin-left: 275px;
+  box-shadow: 3px 4px 7px black;
+}
+
+.transbox {
+  background-color: white;
+  opacity: 0.8;
+  filter: alpha(opacity=80);
+}
+
+.transbox h1{
+  font-family: 'Open Sans', sans-serif;
+  font-style: italic;
+  font-size: 65px;
+  text-align: center;
+  margin-top: -5px;
+  position: relative;
+}
+
+.transbox h2{
+  text-align: center;
+  margin-top: 45px;
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 35px;
+}
+
+.transbox h3{
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 20px;
+  margin-top: 45px;
+  margin-bottom: -75px;
+  margin-left: 170px;
+}
+
+.transbox h4{
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 20px;
+  margin-top: 45px;
+  margin-bottom: -75px;
+  margin-left: 25px;
+}
+
+
+.first-text h1{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 30px;
+  font-weight: bolder;
+  margin-top: 100px;
+  margin-left: 60px;
+  margin-bottom: 100px;
+  padding: 20px;
+  padding-top: 0px;
+}
+
+.first-text h2{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  padding: 50px;
+  margin-top:50px;
+  margin-bottom: 0px;
+  margin-left: -30px;
+  line-height: 25px;
+}
+
+.screen-icon{
+  margin-bottom: 200px;
+  margin-left: 90px;
+  padding: 50px;
+}
+
+.screen-icon h1{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: -75px;
+  margin-top: 15px;
+}
+
+.screen-icon h2{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: -60px;
+  margin-top: -35px;
+}
+
+.screen-icon h3{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: -45px;
+}
+
+.second-text h1{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 30px;
+  font-weight: bolder;
+  margin-top: 25px;
+  margin-left: -100px;
+  margin-bottom: 100px;
+  padding: 30px;
+  padding-top: 0px;
+  padding-right: 180px;
+}
+
+.second-text h2{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  padding: 50px;
+  padding-right: 175px;
+  margin-top: -25px;
+  margin-bottom: 0px;
+  margin-left: -180px;
+  line-height: 25px;
+}
+
+.footer{
+  width: 100%
+}
+
+.artist-background-image h1{
+  font-family: 'Francois One', sans-serif;
+  font-size: 70px;
+  color: white;
+  margin-top: -325px;
+  text-align: center;
+}
+
+.artist-background-image img{
+  margin-left: -20px;
+}
