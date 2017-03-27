@@ -333,6 +333,11 @@ background-image: ("/images/stadium3.jpg") center center;
 }
 
 .footer img{
-  margin-left: 350px;
+  margin-left: 450px;
   margin-top: 35px;
+}
+
+.footer-second-image{
+  margin-left: 500px;
+  margin-top: -160px;
 }
