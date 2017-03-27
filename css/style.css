@@ -277,3 +277,32 @@ background-image: ("/images/stadium3.jpg") center center;
   text-shadow: 4px 4px 4px black;
   position: absolute;
 }
+
+.cheerleaders img{
+  margin-left: -305px;
+  margin-top: 25px;
+  margin-bottom: 75px;
+}
+
+.cheerleaders h1{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 45px;
+  color: white;
+  margin-top: -300px;
+  margin-bottom: 200px;
+  text-align: center;
+  text-shadow: 10px 10px 12px black;
+}
+
+.button {
+    background-color: #0033A0;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    text-align: center;
+    text-decoration:none;
+    display: inline-block;
+    font-size: 16px;
+    padding: 8px;
+    margin-left: -128px;
+    margin-top: -20px;
+}
