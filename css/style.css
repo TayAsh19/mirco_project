@@ -41,7 +41,7 @@ background-image: ("/images/stadium3.jpg") center center;
 
 /*.bar{
   min-height: 60px;
-  background-color: #333399;
+  background-color: grey;
   margin-top: -60px;
   position: relative;
 }
@@ -197,14 +197,47 @@ background-image: ("/images/stadium3.jpg") center center;
 
 .row-one{
   margin-top: 200px;
-  padding: -50px;
 }
 
 .row-one h1{
+  font-size: 35px;
+  color: white;
+  margin-top: -115px;
+  margin-left: 5px;
+  margin-bottom: -  200px;
+  text-shadow: 4px 4px 4px black;
+}
+
+.row-one h2{
   font-size: 40px;
   color: white;
-  margin-top: -140px;
+  margin-top: -90px;
   margin-left: 5px;
   margin-bottom: 100px;
   text-shadow: 4px 4px 4px black;
+}
+
+.row-one h3{
+  font-size: 40px;
+  color: white;
+  margin-top: -45px;
+  margin-left: 5px;
+  margin-bottom: 100px;
+  text-shadow: 4px 4px 4px black;
+}
+
+.row-one h4{
+  font-size: 40px;
+  color: white;
+  margin-top: -90px;
+  margin-left: 5px;
+  margin-bottom: 203px;
+  text-shadow: 4px 4px 4px black;
+}
+
+
+.row-two img{
+  margin-top: -190px;
+  margin-bottom: 100px;
+  position: relative;
 }
