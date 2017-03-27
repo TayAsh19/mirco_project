@@ -306,3 +306,17 @@ background-image: ("/images/stadium3.jpg") center center;
     margin-left: -128px;
     margin-top: -20px;
 }
+
+.footer{
+  background-color: #0033A0;
+  min-height: 225px;
+  width: 1450px;
+  margin-top: 200px;
+  margin-left: -300px;
+  margin-bottom: -100px;
+}
+
+.footer img{
+  margin-left: 350px;
+  margin-top: 35px;
+}
