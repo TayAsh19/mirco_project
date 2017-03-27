@@ -323,6 +323,12 @@ background-image: ("/images/stadium3.jpg") center center;
     margin-top: -20px;
 }
 
+.button:hover{
+  text-decoration: none;
+  color: white;
+  box-shadow: 2px 2px 5px black;
+}
+
 .footer{
   background-color: #0033A0;
   min-height: 225px;
@@ -340,4 +346,20 @@ background-image: ("/images/stadium3.jpg") center center;
 .footer-second-image{
   margin-left: 500px;
   margin-top: -160px;
+}
+
+.benjamin1{
+  height: 275px;
+  width: 275px;
+
+  -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+
+.benjamin1:hover{
+  width: 400px;
+  height: 400px;
 }
