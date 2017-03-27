@@ -128,8 +128,20 @@ background-image: ("/images/stadium3.jpg") center center;
 
 .screen-icon{
   margin-bottom: 200px;
-  margin-left: 90px;
-  padding: 50px;
+  padding: 15px;
+}
+
+.screen{
+  margin-left: 210px;
+}
+
+.food{
+  margin-left: -85px;
+}
+
+.sound{
+  margin-top: -178px;
+  margin-left: 180px;
 }
 
 .screen-icon h1{
@@ -153,6 +165,10 @@ background-image: ("/images/stadium3.jpg") center center;
   font-size: 20px;
   font-weight: bold;
   margin-left: -45px;
+}
+
+.second-text{
+  margin-left: 125px;
 }
 
 .second-text h1{
@@ -279,7 +295,7 @@ background-image: ("/images/stadium3.jpg") center center;
 }
 
 .cheerleaders img{
-  margin-left: -305px;
+  margin-left: -180px;
   margin-top: 25px;
   margin-bottom: 75px;
 }
@@ -312,7 +328,7 @@ background-image: ("/images/stadium3.jpg") center center;
   min-height: 225px;
   width: 1450px;
   margin-top: 200px;
-  margin-left: -300px;
+  margin-left: -175px;
   margin-bottom: -100px;
 }
 
