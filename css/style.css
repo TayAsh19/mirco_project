@@ -241,3 +241,39 @@ background-image: ("/images/stadium3.jpg") center center;
   margin-bottom: 100px;
   position: relative;
 }
+
+.row-two h1{
+  font-size: 40px;
+  color: white;
+  margin-top: -145px;
+  margin-left: 5px;
+  text-shadow: 4px 4px 4px black;
+  position: absolute;
+}
+
+.row-two h2{
+  font-size: 40px;
+  color: white;
+  margin-top: -190px;
+  margin-left: 5px;
+  text-shadow: 4px 4px 4px black;
+  position: absolute;
+}
+
+.row-two h3{
+  font-size: 40px;
+  color: white;
+  margin-top: -190px;
+  margin-left: 5px;
+  text-shadow: 4px 4px 4px black;
+  position: absolute;
+}
+
+.row-two h4{
+  font-size: 40px;
+  color: white;
+  margin-top: -235px;
+  margin-left: 5px;
+  text-shadow: 4px 4px 4px black;
+  position: absolute;
+}
