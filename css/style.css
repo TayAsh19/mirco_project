@@ -254,14 +254,14 @@ background-image: ("/images/stadium3.jpg") center center;
 
 .row-two img{
   margin-top: -190px;
-  margin-bottom: 100px;
+  margin-bottom: 8px;
   position: relative;
 }
 
 .row-two h1{
   font-size: 40px;
   color: white;
-  margin-top: -145px;
+  margin-top: -55px;
   margin-left: 5px;
   text-shadow: 4px 4px 4px black;
   position: absolute;
@@ -270,7 +270,7 @@ background-image: ("/images/stadium3.jpg") center center;
 .row-two h2{
   font-size: 40px;
   color: white;
-  margin-top: -190px;
+  margin-top: -100px;
   margin-left: 5px;
   text-shadow: 4px 4px 4px black;
   position: absolute;
@@ -279,7 +279,7 @@ background-image: ("/images/stadium3.jpg") center center;
 .row-two h3{
   font-size: 40px;
   color: white;
-  margin-top: -190px;
+  margin-top: -100px;
   margin-left: 5px;
   text-shadow: 4px 4px 4px black;
   position: absolute;
@@ -288,7 +288,7 @@ background-image: ("/images/stadium3.jpg") center center;
 .row-two h4{
   font-size: 40px;
   color: white;
-  margin-top: -235px;
+  margin-top: -140px;
   margin-left: 5px;
   text-shadow: 4px 4px 4px black;
   position: absolute;
@@ -332,6 +332,7 @@ background-image: ("/images/stadium3.jpg") center center;
 .footer{
   background-color: #0033A0;
   min-height: 225px;
+  max-height: 225px;
   width: 1450px;
   margin-top: 200px;
   margin-left: -175px;
@@ -348,18 +349,19 @@ background-image: ("/images/stadium3.jpg") center center;
   margin-top: -160px;
 }
 
-.benjamin1{
-  height: 275px;
-  width: 275px;
-
-  -webkit-transition: all 1s ease;
-     -moz-transition: all 1s ease;
-       -o-transition: all 1s ease;
-      -ms-transition: all 1s ease;
-          transition: all 1s ease;
+a:hover{
+  text-decoration: none;
 }
 
-.benjamin1:hover{
-  width: 400px;
-  height: 400px;
+.row-one img:hover{
+  box-shadow: 3px 3px 12px black;
+
+}
+
+.row-three h1{
+  margin-top: -80px;
+}
+
+.row-three h4{
+  margin-top: -90px;
 }
