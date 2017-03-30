@@ -68,7 +68,7 @@ background-image: ("/images/stadium3.jpg") center center;
 
 .transbox {
   background-color: white;
-  opacity: 0.9;
+  opacity: 0.75;
   filter: alpha(opacity=80);
 }
 
