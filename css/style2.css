@@ -1,191 +1,2 @@
-<<<<<<< HEAD
-.top-empty{
-  min-height: 25px;
-}
 
-.nav{
- text-align: right;
- min-height: 50px;
-
-}
-
-.nav li{
-  display: inline;
-  color: black;
-  font-size: 18px;
-  padding: 20px;
-}
-
-.nav a:link, .nav a:visited{
-  color: black;
-  font-family: 'Francois One', sans-serif;
-  text-decoration: none;
-  padding: 5px;
-}
-
-.nav a:hover{
-  color: white;
-  padding: 5px;
-  font-family: 'Francois One', sans-serif;
-  text-decoration: none;
-  background-color: grey;
-}
-
-
-.direction-background-image h1{
-  font-family: 'Francois One', sans-serif;
-  font-size: 70px;
-  color: white;
-  margin-top: -325px;
-  text-align: center;
-  text-shadow: 5px 5px 8px black;
-}
-
-.direction-background-image img{
-  margin-left: -20px;
-}
-
-.first-text h1{
-  font-family: 'Open Sans', sans-serif;
-  font-size: 30px;
-  font-weight: bolder;
-  margin-top: 300px;
-  margin-left: 60px;
-  margin-bottom: 100px;
-  padding: 20px;
-  padding-top: 0px;
-}
-
-.first-text h2{
-  font-family: 'Open Sans', sans-serif;
-  font-size: 18px;
-  padding: 50px;
-  margin-top:250px;
-  margin-bottom: 0px;
-  margin-left: -30px;
-  line-height: 25px;
-}
-
-.second-text h1{
-  font-family: 'Open Sans', sans-serif;
-  font-size: 30px;
-  font-weight: bolder;
-  margin-top: 100px;
-  margin-left: 60px;
-  margin-bottom: 100px;
-  padding: 30px;
-  padding-top: 0px;
-  padding-right: 180px;
-}
-
-.second-text h2{
-  font-family: 'Open Sans', sans-serif;
-  font-size: 18px;
-  padding: 50px;
-  padding-right: 175px;
-  margin-top: 40px;
-  margin-bottom: 0px;
-  margin-left: -30px;
-  line-height: 25px;
-}
-
-.tickets-background-image h1{
-  font-family: 'Francois One', sans-serif;
-  font-size: 70px;
-  color: white;
-  margin-top: -325px;
-  text-align: center;
-  text-shadow: 5px 5px 8px black;
-}
-
-.tickets-background-image img{
-  margin-left: -20px;
-}
-
-.first-text2 h1{
-  font-family: 'Open Sans', sans-serif;
-  font-size: 30px;
-  font-weight: bolder;
-  margin-top: 300px;
-  margin-left: 60px;
-  margin-bottom: 90px;
-  padding: 20px;
-  padding-top: 0px;
-}
-
-.first-text2 h2{
-  font-family: 'Open Sans', sans-serif;
-  font-size: 18px;
-  padding: 50px;
-  margin-top:250px;
-  margin-bottom: 0px;
-  margin-left: -30px;
-  line-height: 25px;
-}
-
-.second-text2 h1{
-  font-family: 'Open Sans', sans-serif;
-  font-size: 30px;
-  font-weight: bolder;
-  margin-top: 10px;
-  margin-left: 60px;
-  margin-bottom: 100px;
-  padding: 30px;
-  padding-top: 0px;
-  padding-right: 100px;
-}
-
-.second-text2 h2{
-  font-family: 'Open Sans', sans-serif;
-  font-size: 18px;
-  padding: 40px;
-  padding-right: 175px;
-  margin-top: 0px;
-  margin-bottom: 0px;
-  margin-right: 30px;
-  line-height: 25px;
-}
-
-.button {
-  display: inline-block;
-  border-radius: 4px;
-  background-color: #003aba;
-  border: none;
-  color: #FFFFFF;
-  text-align: center;
-  font-size: 28px;
-  padding: 20px;
-  width: 375px;
-  transition: all 0.5s;
-  cursor: pointer;
-  margin-left: 750px;
-  margin-bottom: 100px;
-}
-
-.button span {
-  cursor: pointer;
-  display: inline-block;
-  position: relative;
-  transition: 0.5s;
-}
-
-.button span:after {
-  content: '\00bb';
-  position: absolute;
-  opacity: 0;
-  top: 0;
-  right: -20px;
-  transition: 0.5s;
-}
-
-.button:hover span {
-  padding-right: 25px;
-}
-
-.button:hover span:after {
-  opacity: 2;
-  right: 0;
-}
-=======
-/*-------NAV--------------*/@media only screen and (min-width: 768px) {  .nav-buttons li{    display: inline;    padding: 20px;  }  .nav-buttons{    text-align: right;    margin-top: 20px;  }  .nav-buttons li a, .nav-buttons li a:visited {    /*background-color:lightgrey;*/    padding: 10px;    text-decoration: none;    color: black;    font-family: 'Francois One', sans-serif;  }  .nav-buttons li a:hover {    background-color:grey;    padding: 10px;    text-decoration: none;    color: white;    font-family: 'Francois One', sans-serif;  }  .nav-buttons .selected a, .nav-buttons .selected a:visited{    background-color:grey;    padding: 10px;    text-decoration: none;    color: white;    font-family: 'Francois One', sans-serif;  }}@media only screen and (max-width: 768px) {  .nav-buttons li{    display: inline;    padding: 5px;  }  .nav-buttons{    text-align: center;    margin-top: 10px;  }  .nav-buttons li a, .nav-buttons li a:visited {    padding: 5px;    text-decoration: none;    color: black;    font-family: 'Francois One', sans-serif;  }  .nav-buttons li a:hover {    background-color:grey;    padding: 5px;    text-decoration: none;    color: white;    font-family: 'Francois One', sans-serif;  }  .nav-buttons .selected a, .nav-buttons .selected a:visited{    background-color:grey;    padding: 5px;    text-decoration: none;    color: white;    font-family: 'Francois One', sans-serif;  }}/*------------------------*/.direction-background-image{  background: url("../images/direction_image.jpg") no-repeat center;  min-height: 400px;  padding-top: 100px;}.direction-background-imageh1{  font-family: 'Francois One', sans-serif;  font-size: 60px;  color: white;  text-align: center;  text-shadow: 5px 5px 8px black;}.first-text h1{  font-family: 'Open Sans', sans-serif;  font-size: 30px;  font-weight: bolder;  margin-top: 100px;  margin-left: 60px;  margin-bottom: 100px;  padding: 20px;  padding-top: 0px;}.first-text h2{  font-family: 'Open Sans', sans-serif;  font-size: 18px;  padding: 50px;  margin-top:50px;  margin-bottom: 0px;  margin-left: -30px;  line-height: 25px;}.first-text p { width: 600px;padding-top: 20px;}.second-text h1{  font-family: 'Open Sans', sans-serif;  font-size: 30px;  font-weight: bolder;  margin-top: 100px;  margin-left: 60px;  margin-bottom: 100px;  padding: 30px;  padding-top: 0px;  padding-right: 180px;}.second-text h2{  font-family: 'Open Sans', sans-serif;  font-size: 18px;  padding: 50px;  padding-right: 175px;  margin-top: 40px;  margin-bottom: 0px;  margin-left: -30px;  line-height: 25px;}.tickets-background-image{ background: url("../images/tickets_image.jpg") no-repeat center;  min-height: 400px;  padding-top: 100px;}.tickets-background-image h1{  font-family: 'Francois One', sans-serif;  font-size: 70px;  color: white;  text-align: center;  text-shadow: 5px 5px 8px black;}.first-text2 h1{  font-family: 'Open Sans', sans-serif;  font-size: 30px;  font-weight: bolder;  margin-top: 100px;  margin-left: 60px;  margin-bottom: 90px;  padding: 20px;  padding-top: 0px;}.first-text2 h2{  font-family: 'Open Sans', sans-serif;  font-size: 18px;  padding: 50px;  margin-top:50px;  margin-bottom: 0px;  margin-left: -30px;  line-height: 25px;}.second-text2 h1{  font-family: 'Open Sans', sans-serif;  font-size: 30px;  font-weight: bolder;  margin-top: 10px;  margin-left: 60px;  margin-bottom: 100px;  padding: 30px;  padding-top: 0px;  padding-right: 100px;}.second-text2 h2{  font-family: 'Open Sans', sans-serif;  font-size: 18px;  padding: 40px;  padding-right: 175px;  margin-top: 0px;  margin-bottom: 0px;  margin-right: 30px;  line-height: 25px;}.button {  display: inline-block;  border-radius: 4px;  background-color: #003aba;  border: none;  color: #FFFFFF;  text-align: center;  font-size: 28px;  padding: 20px;  width: 375px;  transition: all 0.5s;  cursor: pointer;  margin-left: 750px;  margin-bottom: 100px;}.button span {  cursor: pointer;  display: inline-block;  position: relative;  transition: 0.5s;}.button span:after {  content: '\00bb';  position: absolute;  opacity: 0;  top: 0;  right: -20px;  transition: 0.5s;}.button:hover span {  padding-right: 25px;}.button:hover span:after {  opacity: 2;  right 0;}
->>>>>>> BenHart624/master
+@media only screen and (min-width: 768px) {  .nav-buttons li{    display: inline;    padding: 20px;  }  .nav-buttons{    text-align: right;    margin-top: 20px;  }  .nav-buttons li a, .nav-buttons li a:visited {    /*background-color:lightgrey;*/    padding: 10px;    text-decoration: none;    color: black;    font-family: 'Francois One', sans-serif;  }  .nav-buttons li a:hover {    background-color:grey;    padding: 10px;    text-decoration: none;    color: white;    font-family: 'Francois One', sans-serif;  }  .nav-buttons .selected a, .nav-buttons .selected a:visited{    background-color:grey;    padding: 10px;    text-decoration: none;    color: white;    font-family: 'Francois One', sans-serif;  }}@media only screen and (max-width: 768px) {  .nav-buttons li{    display: inline;    padding: 5px;  }  .nav-buttons{    text-align: center;    margin-top: 10px;  }  .nav-buttons li a, .nav-buttons li a:visited {    padding: 5px;    text-decoration: none;    color: black;    font-family: 'Francois One', sans-serif;  }  .nav-buttons li a:hover {    background-color:grey;    padding: 5px;    text-decoration: none;    color: white;    font-family: 'Francois One', sans-serif;  }  .nav-buttons .selected a, .nav-buttons .selected a:visited{    background-color:grey;    padding: 5px;    text-decoration: none;    color: white;    font-family: 'Francois One', sans-serif;  }}/*------------------------*/.direction-background-image{  background: url("../images/direction_image.jpg") no-repeat center;  min-height: 400px;  padding-top: 100px;}.direction-background-imageh1{  font-family: 'Francois One', sans-serif;  font-size: 60px;  color: white;  text-align: center;  text-shadow: 5px 5px 8px black;}.first-text h1{  font-family: 'Open Sans', sans-serif;  font-size: 30px;  font-weight: bolder;  margin-top: 100px;  margin-left: 60px;  margin-bottom: 100px;  padding: 20px;  padding-top: 0px;}.first-text h2{  font-family: 'Open Sans', sans-serif;  font-size: 18px;  padding: 50px;  margin-top:50px;  margin-bottom: 0px;  margin-left: -30px;  line-height: 25px;}.first-text p { width: 600px;padding-top: 20px;}.second-text h1{  font-family: 'Open Sans', sans-serif;  font-size: 30px;  font-weight: bolder;  margin-top: 100px;  margin-left: 60px;  margin-bottom: 100px;  padding: 30px;  padding-top: 0px;  padding-right: 180px;}.second-text h2{  font-family: 'Open Sans', sans-serif;  font-size: 18px;  padding: 50px;  padding-right: 175px;  margin-top: 40px;  margin-bottom: 0px;  margin-left: -30px;  line-height: 25px;}.tickets-background-image{ background: url("../images/tickets_image.jpg") no-repeat center;  min-height: 400px;  padding-top: 100px;}.tickets-background-image h1{  font-family: 'Francois One', sans-serif;  font-size: 70px;  color: white;  text-align: center;  text-shadow: 5px 5px 8px black;}.first-text2 h1{  font-family: 'Open Sans', sans-serif;  font-size: 30px;  font-weight: bolder;  margin-top: 100px;  margin-left: 60px;  margin-bottom: 90px;  padding: 20px;  padding-top: 0px;}.first-text2 h2{  font-family: 'Open Sans', sans-serif;  font-size: 18px;  padding: 50px;  margin-top:50px;  margin-bottom: 0px;  margin-left: -30px;  line-height: 25px;}.second-text2 h1{  font-family: 'Open Sans', sans-serif;  font-size: 30px;  font-weight: bolder;  margin-top: 10px;  margin-left: 60px;  margin-bottom: 100px;  padding: 30px;  padding-top: 0px;  padding-right: 100px;}.second-text2 h2{  font-family: 'Open Sans', sans-serif;  font-size: 18px;  padding: 40px;  padding-right: 175px;  margin-top: 0px;  margin-bottom: 0px;  margin-right: 30px;  line-height: 25px;}.button {  display: inline-block;  border-radius: 4px;  background-color: #003aba;  border: none;  color: #FFFFFF;  text-align: center;  font-size: 28px;  padding: 20px;  width: 375px;  transition: all 0.5s;  cursor: pointer;  margin-left: 750px;  margin-bottom: 100px;}.button span {  cursor: pointer;  display: inline-block;  position: relative;  transition: 0.5s;}.button span:after {  content: '\00bb';  position: absolute;  opacity: 0;  top: 0;  right: -20px;  transition: 0.5s;}.button:hover span {  padding-right: 25px;}.button:hover span:after {  opacity: 2;  right 0;}
