@@ -24,6 +24,19 @@
   padding-right: 200px;
 }
 
+@media only screen and (max-width: 768px){
+  .side-heading{
+    padding-left: 50px;
+  }
+}
+
+@media only screen and (max-width: 768px){
+  .col-sm-8{
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}
+
 /*-------NAV--------------*/
 
 @media only screen and (min-width: 768px) {
@@ -112,6 +125,11 @@
   padding:15px;
 }
 
+@media only screen and (max-width: 768px) {
+  .text-box{
+    margin-top: -50px;
+}
+}
 .text-box h1{
   font-family: 'Francois One', sans-serif;
   font-size: 60px;
@@ -121,6 +139,7 @@
 
 .text-box h2{
   color: black;
+  margin-bottom: 25px;
 }
 
 .text-box{
@@ -135,6 +154,12 @@
 .time{
   padding-left:50px;
   color: black;
+}
+
+@media only screen and (max-width: 768px) {
+  .time{
+      padding-left: 89px;
+  }
 }
 
 .location{
@@ -157,6 +182,13 @@
   padding-right: 50px;
 }
 
+@media only screen and (max-width: 768px) {
+  .icons img{
+    width: 60px;
+    height: auto;
+
+  }
+}
 
 
 
@@ -174,9 +206,16 @@
 
 .image-divider h2{
   color: white;
+  text-shadow: 10px 10px 12px black;
   font-size: 40px;
   text-align: center;
   padding-top:130px;
+}
+
+@media only screen and (max-width: 768px) {
+  .image-divider h2{
+    margin-top: -55px;
+  }
 }
 
 /*------------------------*/
@@ -190,9 +229,18 @@
 .btn-primary{
   min-width:200px;
   margin-bottom:100px;
+  margin-left: -490px;
   background-color: #0033A0;
   border: none;
 }
+
+@media only screen and (max-width: 768px) {
+  .btn-primary{
+    margin-left: auto;
+  }
+}
+
+
 
 /*------------------------*/
 
@@ -207,6 +255,11 @@
   margin-right: 40px;
 }
 
+@media only screen and (max-width: 768px) {
+  .sponsers img{
+    padding: 150px;
+  }
+}
 /*------------------------*/
 
 
@@ -216,77 +269,6 @@
 
 
 
-
-.first-text h1{
-  font-family: 'Open Sans', sans-serif;
-  font-size: 30px;
-  font-weight: bolder;
-  margin-top: 100px;
-  margin-left: 60px;
-  margin-bottom: 100px;
-  padding: 20px;
-  padding-top: 0px;
-}
-
-.first-text h2{
-  font-family: 'Open Sans', sans-serif;
-  font-size: 18px;
-  padding: 50px;
-  margin-top:50px;
-  margin-bottom: 0px;
-  margin-left: -30px;
-  line-height: 25px;
-}
-
-.screen-icon h1{
-  font-family: 'Open Sans', sans-serif;
-  font-size: 20px;
-  font-weight: bold;
-  margin-left: -75px;
-  margin-top: 15px;
-}
-
-.screen-icon h2{
-  font-family: 'Open Sans', sans-serif;
-  font-size: 20px;
-  font-weight: bold;
-  margin-left: -60px;
-  margin-top: -35px;
-}
-
-.screen-icon h3{
-  font-family: 'Open Sans', sans-serif;
-  font-size: 20px;
-  font-weight: bold;
-  margin-left: -45px;
-}
-
-.second-text{
-  margin-left: 125px;
-}
-
-.second-text h1{
-  font-family: 'Open Sans', sans-serif;
-  font-size: 30px;
-  font-weight: bolder;
-  margin-top: 25px;
-  margin-left: -100px;
-  margin-bottom: 100px;
-  padding: 30px;
-  padding-top: 0px;
-  padding-right: 180px;
-}
-
-.second-text h2{
-  font-family: 'Open Sans', sans-serif;
-  font-size: 18px;
-  padding: 50px;
-  padding-right: 175px;
-  margin-top: -25px;
-  margin-bottom: 0px;
-  margin-left: -180px;
-  line-height: 25px;
-}
 
 
 /*--------------------------Artists----------------------*/
